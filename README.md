@@ -7,7 +7,7 @@
 <p>implementation 'com.android.support:design:27.1.1'</p>
 <p><strong>Step 2 :</strong> Copy <span style="color: #800080;"><strong>"Drawer"</strong></span> package and paste into your project&nbsp;</p>
 <p><span style="color: #800080;"><strong>"DrawerActivity"</strong></span> is responsible to handle whole drawer selection, icons and title of the drawer items.</p>
-<p><strong>Step 3 :</strong> To change the icons and title change in below lines</p>
+<p><strong>Step 3 :</strong> To change the icons and title, change in below lines</p>
 <pre>drawerItemList.add(new DrawerItem(R.drawable.ic_home, R.drawable.ic_home_white, getString(R.string.home)));</pre>
 <p>where first icon is 1st argue for grey icon, 2nd argu for white icon and 3rd argu for for title of drawer item, so change according to your requirements.</p>
 <p><strong>Step 4 :</strong> Handle item click using <span style="color: #800080;">"<strong>onDrawerListClick</strong>"</span> method and you can change fragments here.</p>
